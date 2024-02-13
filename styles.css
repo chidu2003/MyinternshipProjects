@@ -1,4 +1,39 @@
 /* Reset CSS */
+
+
+
+
+.buy-now-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now-button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center-text {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.currency-selection {
+    margin-bottom: 20px;
+}
 .currency-selection {
     position: absolute;
     top: 10px;
@@ -98,4 +133,45 @@ ul li {
 
 .currency-selection label {
     font-weight: bold;
+}
+
+/* styles.css */
+
+.login-section {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.login-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from anchor tag */
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* styles.css */
+
+.register-button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from anchor tag */
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Add space between login and register buttons */
+}
+
+.register-button:hover {
+    background-color: #218838; /* Darker shade of green */
 }
